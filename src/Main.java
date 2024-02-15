@@ -5,12 +5,21 @@ public class Main {
 
         int myNum = 4;
 
+        int totalEvens = 0;
+
         while(myNum <=20){
             myNum++;
             if(!isEvenNumber(myNum)){
                 continue;
             }
+
             System.out.println(myNum);
+
+            totalEvens ++;
+
+            if (totalEvens >= 5) {
+                break;
+            }
         }
 
     }
