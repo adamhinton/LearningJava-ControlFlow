@@ -3,15 +3,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        int myNum = 5;
+        int myNum = 4;
 
         while(myNum <=20){
+            myNum++;
             if(!isEvenNumber(myNum)){
-                myNum++;
                 continue;
             }
             System.out.println(myNum);
-            myNum++;
         }
 
     }
